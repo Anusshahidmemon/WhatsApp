@@ -1,0 +1,30 @@
+.img-fluid{
+    border-radius: 50%;
+    width: 60px;
+}
+.chat-item{
+    height: 100vh;
+    overflow-x: auto;
+
+}
+.chat-item::-webkit-scrollbar{
+    height: 20px;
+}
+.lg-screen-content h1{
+    font-weight: lighter;
+    color: rgb(96, 92, 92);
+}
+.lg-screen-content p{
+    color: rgb(88, 85, 85);
+}
+.btn:active{
+    border: none;
+}
+.btn{
+    background-color:#008069 !important;
+    color: white !important;
+    border-radius: 50px !important;
+}
+.col-2nd{
+    background-color: #f0f2f9;
+}
