@@ -1,9 +1,10 @@
-.img-fluid{
+.img-fluids{
     border-radius: 50%;
-    width: 60px;
+    width: 50px;
+    height: 50px;
 }
 .chat-item{
-    height: 100vh;
+    height: 76vh;
     overflow-x: auto;
 
 }
@@ -26,5 +27,66 @@
     border-radius: 50px !important;
 }
 .col-2nd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f0f2f9;
+    height: 100vh;
+}
+@media (max-width:767px){
+    .col-2nd{
+        display: none !important;
+    } 
+}
+.bi-search{
+    color: black;
+    
+}
+#basic-addon1{
+    border: none;
+}
+.form-control{
+    background-color: #E9EcEf !important;
+   
+   border: none !important;
+   
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+   
+}
+.bi-list{
+    font-size: 25px;
+    cursor: pointer;
+}
+h5, p{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.chat-hovers:hover{
+   background-color: #E9EcEf;
+
+}
+hr{
+    margin-bottom: 0px !important;
+}
+@media(max-width:370px){
+   .ps-md-4{
+    padding-left: 30px !important;
+   }
+}
+.bi-person-circle{
+   font-size: 38px;
+ color: white;
+}
+.header-sec{
+    background-color: #E9EcEf;
+}
+.icon{
+    font-size: 20px;
+}
+.bi-2-circle-fill{
+    color: #37b75b;
+    font-size: 16px;
 }
